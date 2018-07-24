@@ -14,7 +14,7 @@ count = 0
 success = True
 c3=0
 while success:
-  if(c3%3==0): #taking every 10th frame
+  if(c3%3==0): #taking every 3rd frame
       cv2.imwrite("images_dance/frame%d.jpg" % count, image) 
       count += 1
       print(count)
